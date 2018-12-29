@@ -22,20 +22,26 @@ def isReleaseBuild() {
 }
 
 def getReleaseRepositoryUrl() {
+    return "http://192.168.1.233:8081/repository/3rdPart/"
+
     return hasProperty('RELEASE_REPOSITORY_URL') ? RELEASE_REPOSITORY_URL
             : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
 }
 
 def getSnapshotRepositoryUrl() {
+    return "http://192.168.1.233:8081/repository/3rdPart/"
+
     return hasProperty('SNAPSHOT_REPOSITORY_URL') ? SNAPSHOT_REPOSITORY_URL
             : "https://oss.sonatype.org/content/repositories/snapshots/"
 }
 
 def getRepositoryUsername() {
+    return ""
     return hasProperty('NEXUS_USERNAME') ? NEXUS_USERNAME : ""
 }
 
 def getRepositoryPassword() {
+    return ""
     return hasProperty('NEXUS_PASSWORD') ? NEXUS_PASSWORD : ""
 }
 

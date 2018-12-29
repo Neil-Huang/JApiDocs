@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <title>图书接口</title>
-<script src="https://cdn.jsdelivr.net/npm/prettify@0.1.7/prettify.min.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/prettify@0.1.7/prettify.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css" rel="stylesheet">
 <link href="../style.css" rel="stylesheet" />
 </head>
 <body onload="PR.prettyPrint()">
@@ -30,12 +30,16 @@ url: /api/v1/book/bookList
 <p>返回结果: <a href="../javaCodes/controller_BookController_bookList_BookVO.html">Android Code</a> | <a href="../iosCodes/controller_BookController_bookList_BookVO.html">IOS Code</a></p>
 
 <pre class="prettyprint lang-json">
-[
-  {
-    "bookId": "string //图书id",
-    "bookName": "string //图书名"
-  }
-]
+{
+  "code": 0,
+  "errorMessage": "string //错误信息",
+  "content": [
+    {
+      "book_id": "string //图书id",
+      "book_name": "string //图书名"
+    }
+  ]
+}
 </pre>
 
 <hr>

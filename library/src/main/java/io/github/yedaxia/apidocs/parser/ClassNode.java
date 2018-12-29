@@ -2,10 +2,7 @@ package io.github.yedaxia.apidocs.parser;
 
 import io.github.yedaxia.apidocs.Utils;
 
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * class node
@@ -96,6 +93,38 @@ public class ClassNode {
         }
     }
 
+    // 特殊错误
+    public String toJsonApi4Itacasa(){
+
+        Map<String,Object> map = new HashMap<>();
+        map.put("code",0);
+        map.put("errorMessage","string //错误信息");
+
+        if(childNodes == null || childNodes.isEmpty()){
+            String json = isList? className + "[]": className + "{}";
+            if (isList) {
+                map.put("content", new Map[]{});
+
+            } else {
+                map.put("content", new Object());
+            }
+
+        }else {
+            Map<String, Object> jsonRootMap = new LinkedHashMap<>();
+            for (FieldNode recordNode : childNodes) {
+                toJsonApiMap(recordNode, jsonRootMap);
+            }
+
+            if (isList) {
+                map.put("content", new Map[]{jsonRootMap});
+
+            } else {
+                map.put("content", jsonRootMap);
+            }
+        }
+       return Utils.toPrettyJson(map);
+    }
+
     public void toJsonApiMap(FieldNode recordNode, Map<String, Object> map){
         ClassNode childResponseNode = recordNode.getChildResponseNode();
         if(childResponseNode != null){
@@ -104,16 +133,16 @@ public class ClassNode {
                 if(childNode.getChildResponseNode() != null){
                     toJsonApiMap(childNode,childMap);
                 }else{
-                    childMap.put(childNode.getName(), getRecordDescp(childNode));
+                    childMap.put(Utils.string2SnakeCase(childNode.getName()) , getRecordDescp(childNode));
                 }
             }
             if(recordNode.getType().endsWith("[]")){
-                map.put(recordNode.getName(), childMap.isEmpty()? new Map[]{}: new Map[]{childMap});
+                map.put(Utils.string2SnakeCase(recordNode.getName()), childMap.isEmpty()? new Map[]{}: new Map[]{childMap});
             }else{
-                map.put(recordNode.getName(), childMap);
+                map.put(Utils.string2SnakeCase(recordNode.getName()), childMap);
             }
         }else{
-            map.put(recordNode.getName(), getRecordDescp(recordNode));
+            map.put(Utils.string2SnakeCase(recordNode.getName()), getRecordDescp(recordNode));
         }
     }
 

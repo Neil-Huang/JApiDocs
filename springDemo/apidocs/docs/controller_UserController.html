@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <title>用户接口</title>
-<script src="https://cdn.jsdelivr.net/npm/prettify@0.1.7/prettify.min.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/prettify@0.1.7/prettify.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css" rel="stylesheet">
 <link href="../style.css" rel="stylesheet" />
 </head>
 <body onload="PR.prettyPrint()">
@@ -31,8 +31,12 @@ url: /api/v1/user/userInfo
 
 <pre class="prettyprint lang-json">
 {
-  "userId": "string //用户id",
-  "userName": "string //用户名"
+  "code": 0,
+  "errorMessage": "string //错误信息",
+  "content": {
+    "user_id": "string //用户id",
+    "user_name": "string //用户名"
+  }
 }
 </pre>
 
@@ -50,12 +54,16 @@ url: /api/v1/user/list
 <p>返回结果: <a href="../javaCodes/controller_UserController_list_UserVO.html">Android Code</a> | <a href="../iosCodes/controller_UserController_list_UserVO.html">IOS Code</a></p>
 
 <pre class="prettyprint lang-json">
-[
-  {
-    "userId": "string //用户id",
-    "userName": "string //用户名"
-  }
-]
+{
+  "code": 0,
+  "errorMessage": "string //错误信息",
+  "content": [
+    {
+      "user_id": "string //用户id",
+      "user_name": "string //用户名"
+    }
+  ]
+}
 </pre>
 
 <hr>

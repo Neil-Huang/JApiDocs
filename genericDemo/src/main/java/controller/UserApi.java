@@ -13,7 +13,7 @@ public class UserApi {
      * 用户信息
      * @param userId 用户ID
      */
-    @ApiDoc(result = UserVO.class, url="/api/u/userInfo", method = "get")
+    @ApiDoc(result = UserVO.class, url="/api/u/userInfo", method = "GET")
     public void userInfo(String userId){
 
     }

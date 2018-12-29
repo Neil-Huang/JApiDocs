@@ -235,10 +235,12 @@ class Project {
             parameter.setName(fieldNode.getDescription());
             MockNode mockNode = fieldNode.getMockNode();
 
+            String snakeName = Utils.string2SnakeCase(fieldNode.getName());
+
             if (DataType.isArrayType(fieldNode.getType())) {
-                parameter.setIdentifier(getArrayIdentifier(fieldNode.getName()));
+                parameter.setIdentifier(getArrayIdentifier(snakeName));
             } else {
-                parameter.setIdentifier(fieldNode.getName());
+                parameter.setIdentifier(snakeName);
             }
             parameter.setRemark(DataType.mockTypeOfNode(fieldNode.getType()));
             parameter.setDataType(DataType.rapTypeOfNode(fieldNode.getType()));
@@ -246,7 +248,7 @@ class Project {
             // cover
             if(mockNode != null){
                 if(Utils.isNotEmpty(mockNode.getLimit())){
-                    parameter.setIdentifier(String.format("%s|%s", fieldNode.getName(), mockNode.getLimit()));
+                    parameter.setIdentifier(String.format("%s|%s", snakeName, mockNode.getLimit()));
                 }
                 if(Utils.isNotEmpty(mockNode.getValue())){
                     parameter.setRemark(DataType.mockValue(mockNode.getValue()));

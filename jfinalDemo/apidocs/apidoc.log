@@ -1,212 +1,222 @@
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: find java src paths:  [/Users/yeguozhong/Desktop/gitLibrary/JApiDocs/jfinalDemo/src/main/java/]
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find java src paths:  [/Users/kevin/Documents/code/github/JApiDocs/jfinalDemo/src/main/java/]
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: project type not set, try to figure out...
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start find controllers in path : /Users/yeguozhong/Desktop/gitLibrary/JApiDocs/jfinalDemo/src/main/java/
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: Jfinal config file path : /Users/yeguozhong/Desktop/gitLibrary/JApiDocs/jfinalDemo/src/main/java/config/MyWebConfig.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start find controllers in path : /Users/kevin/Documents/code/github/JApiDocs/jfinalDemo/src/main/java/
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: Jfinal config file path : /Users/kevin/Documents/code/github/JApiDocs/jfinalDemo/src/main/java/config/MyWebConfig.java
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: found child routes in file : KRoutes.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: found config() method, start to parse child routes in file : KRoutes.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: generate api docs start...
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: start to parse controller file : UserController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: start to generate docs for controller file : UserController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: success to generate docs for controller file : UserController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: start to parse controller file : BookController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: start to generate docs for controller file : BookController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: success to generate docs for controller file : BookController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: generate api docs done !!!
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils warn
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils warn
 警告: warning!! docs config properties miss, we don't think you want to post to rap!
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: find multi modules in this project: [webapi, model]
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: find java src paths:  [/Users/yeguozhong/Desktop/gitLibrary/JApiDocs/jfinalDemo/src/main/java/, /Users/yeguozhong/Desktop/svnLibrary/jap/webapi/src/main/java/, /Users/yeguozhong/Desktop/svnLibrary/jap/model/src/main/java/]
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils error
+严重: error!!! projectDir doesn't exists. /Users/yeguozhong/Desktop/svnLibrary/jap/
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate api docs start...
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : UserController.java
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : UserController.java
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils error
+严重: generate docs for controller file : UserController.java fail
+java.io.FileNotFoundException: /Users/yeguozhong/Desktop/svnLibrary/jap/apidocs/javaCodes/controller_UserController_userInfo_UserVO.html (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at io.github.yedaxia.apidocs.Utils.writeToDisk(Utils.java:71)
+	at io.github.yedaxia.apidocs.codegenerator.CodeGenerator.generateCode(CodeGenerator.java:44)
+	at io.github.yedaxia.apidocs.doc.HtmlControllerDocBuilder.buildDoc(HtmlControllerDocBuilder.java:94)
+	at io.github.yedaxia.apidocs.doc.AbsDocGenerator.generateControllersDocs(AbsDocGenerator.java:52)
+	at io.github.yedaxia.apidocs.doc.AbsDocGenerator.generateDocs(AbsDocGenerator.java:31)
+	at io.github.yedaxia.apidocs.Docs.buildHtmlDocs(Docs.java:32)
+	at DocsTest.test_generateMultiModuleDocs(DocsTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:377)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to parse controller file : BookController.java
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start to generate docs for controller file : BookController.java
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils error
+严重: generate docs for controller file : BookController.java fail
+java.io.FileNotFoundException: /Users/yeguozhong/Desktop/svnLibrary/jap/apidocs/javaCodes/controller_BookController_bookList_BookVO.html (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at io.github.yedaxia.apidocs.Utils.writeToDisk(Utils.java:71)
+	at io.github.yedaxia.apidocs.codegenerator.CodeGenerator.generateCode(CodeGenerator.java:44)
+	at io.github.yedaxia.apidocs.doc.HtmlControllerDocBuilder.buildDoc(HtmlControllerDocBuilder.java:94)
+	at io.github.yedaxia.apidocs.doc.AbsDocGenerator.generateControllersDocs(AbsDocGenerator.java:52)
+	at io.github.yedaxia.apidocs.doc.AbsDocGenerator.generateDocs(AbsDocGenerator.java:31)
+	at io.github.yedaxia.apidocs.Docs.buildHtmlDocs(Docs.java:32)
+	at DocsTest.test_generateMultiModuleDocs(DocsTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:114)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:57)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:66)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:377)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: generate api docs done !!!
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: warning!! docs config properties miss, we don't think you want to post to rap!
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find java src paths:  [/Users/kevin/Documents/code/github/JApiDocs/jfinalDemo/src/main/java/]
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: project type not set, try to figure out...
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start find controllers in path : /Users/yeguozhong/Desktop/gitLibrary/JApiDocs/jfinalDemo/src/main/java/
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start find controllers in path : /Users/yeguozhong/Desktop/svnLibrary/jap/webapi/src/main/java/
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start find controllers in path : /Users/yeguozhong/Desktop/svnLibrary/jap/model/src/main/java/
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start find controllers in path : /Users/kevin/Documents/code/github/JApiDocs/jfinalDemo/src/main/java/
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: generate api docs start...
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: start to parse controller file : UserController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:21 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: start to generate docs for controller file : UserController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: success to generate docs for controller file : UserController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: start to parse controller file : BookController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: start to generate docs for controller file : BookController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: success to generate docs for controller file : BookController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to parse controller file : UserController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to generate docs for controller file : UserController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: success to generate docs for controller file : UserController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to parse controller file : BookController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to generate docs for controller file : BookController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: success to generate docs for controller file : BookController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to parse controller file : UserController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to generate docs for controller file : UserController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: success to generate docs for controller file : UserController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to parse controller file : BookController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to generate docs for controller file : BookController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: success to generate docs for controller file : BookController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: generate api docs done !!!
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils warn
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils warn
 警告: warning!! docs config properties miss, we don't think you want to post to rap!
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: find java src paths:  [/Users/yeguozhong/Desktop/gitLibrary/JApiDocs/jfinalDemo/src/main/java/, /Users/yeguozhong/Desktop/svnLibrary/jap/webapi/src/main/java/, /Users/yeguozhong/Desktop/svnLibrary/jap/model/src/main/java/]
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find java src paths:  [/Users/kevin/Documents/code/github/JApiDocs/jfinalDemo/src/main/java/]
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: project type not set, try to figure out...
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start find controllers in path : /Users/yeguozhong/Desktop/gitLibrary/JApiDocs/jfinalDemo/src/main/java/
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start find controllers in path : /Users/yeguozhong/Desktop/svnLibrary/jap/webapi/src/main/java/
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start find controllers in path : /Users/yeguozhong/Desktop/svnLibrary/jap/model/src/main/java/
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start find controllers in path : /Users/kevin/Documents/code/github/JApiDocs/jfinalDemo/src/main/java/
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: generate api docs start...
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: start to parse controller file : UserController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: start to generate docs for controller file : UserController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: success to generate docs for controller file : UserController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: start to parse controller file : BookController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: start to generate docs for controller file : BookController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: success to generate docs for controller file : BookController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to parse controller file : UserController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to generate docs for controller file : UserController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: success to generate docs for controller file : UserController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to parse controller file : BookController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to generate docs for controller file : BookController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: success to generate docs for controller file : BookController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to parse controller file : UserController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to generate docs for controller file : UserController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: success to generate docs for controller file : UserController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to parse controller file : BookController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to generate docs for controller file : BookController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: success to generate docs for controller file : BookController.java
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: generate api docs done !!!
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils warn
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils warn
 警告: warning!! docs config properties miss, we don't think you want to post to rap!
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: find java src paths:  [/Users/yeguozhong/Desktop/gitLibrary/JApiDocs/jfinalDemo/src/main/java/, /Users/yeguozhong/Desktop/svnLibrary/jap/webapi/src/main/java/, /Users/yeguozhong/Desktop/svnLibrary/jap/model/src/main/java/]
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: find java src paths:  [/Users/kevin/Documents/code/github/JApiDocs/jfinalDemo/src/main/java/]
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: project type not set, try to figure out...
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start find controllers in path : /Users/yeguozhong/Desktop/gitLibrary/JApiDocs/jfinalDemo/src/main/java/
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start find controllers in path : /Users/yeguozhong/Desktop/svnLibrary/jap/webapi/src/main/java/
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start find controllers in path : /Users/yeguozhong/Desktop/svnLibrary/jap/model/src/main/java/
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: info: start find controllers in path : /Users/kevin/Documents/code/github/JApiDocs/jfinalDemo/src/main/java/
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: generate api docs start...
-十月 02, 2018 3:57:26 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to parse controller file : UserController.java
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to generate docs for controller file : UserController.java
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: success to generate docs for controller file : UserController.java
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to parse controller file : BookController.java
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to generate docs for controller file : BookController.java
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: success to generate docs for controller file : BookController.java
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to parse controller file : UserController.java
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to generate docs for controller file : UserController.java
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: success to generate docs for controller file : UserController.java
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to parse controller file : BookController.java
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to generate docs for controller file : BookController.java
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: success to generate docs for controller file : BookController.java
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to parse controller file : UserController.java
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to generate docs for controller file : UserController.java
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: success to generate docs for controller file : UserController.java
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to parse controller file : BookController.java
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start to generate docs for controller file : BookController.java
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: success to generate docs for controller file : BookController.java
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils info
 信息: info: generate api docs done !!!
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils warn
+十二月 29, 2018 5:03:22 下午 io.github.yedaxia.apidocs.LogUtils warn
 警告: warning!! docs config properties miss, we don't think you want to post to rap!
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: find java src paths:  [/Users/yeguozhong/Desktop/gitLibrary/JApiDocs/jfinalDemo/src/main/java/, /Users/yeguozhong/Desktop/svnLibrary/jap/webapi/src/main/java/, /Users/yeguozhong/Desktop/svnLibrary/jap/model/src/main/java/]
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: project type not set, try to figure out...
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start find controllers in path : /Users/yeguozhong/Desktop/gitLibrary/JApiDocs/jfinalDemo/src/main/java/
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start find controllers in path : /Users/yeguozhong/Desktop/svnLibrary/jap/webapi/src/main/java/
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: start find controllers in path : /Users/yeguozhong/Desktop/svnLibrary/jap/model/src/main/java/
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: generate api docs start...
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: generate api docs done !!!
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils warn
-警告: warning!! docs config properties miss, we don't think you want to post to rap!
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: find multi modules in this project: [library, playDemo, springDemo, genericDemo, jfinalDemo]
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: find multi modules in this project: [webapi, model]
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils info
-信息: info: we think Object should not be an enum type
-十月 02, 2018 3:57:27 下午 io.github.yedaxia.apidocs.LogUtils warn
-警告: warning!! Cannot find java file , in java file : /Users/yeguozhong/Desktop/gitLibrary/JApiDocs/library/src/test/java/result/Student.java, className : Object, we cannot found more information of it, you've better to make it a JavaBean

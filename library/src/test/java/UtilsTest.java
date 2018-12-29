@@ -10,14 +10,14 @@ import java.util.List;
  */
 public class UtilsTest {
 
-    @Test
+    //@Test
     public void test_getGradleModuleNames(){
         List<String> gradleModules = Utils.getModuleNames(new File("/Users/yeguozhong/Desktop/gitLibrary/JApiDocs"));
         Assert.assertArrayEquals(gradleModules.toArray(new String[gradleModules.size()]),
                 new String[]{"library","playDemo","springDemo","genericDemo","jfinalDemo"});
     }
 
-    @Test
+    //@Test
     public void test_getMavenModuleNames(){
         List<String> gradleModules = Utils.getModuleNames(new File("/Users/yeguozhong/Desktop/svnLibrary/jap"));
         Assert.assertArrayEquals(gradleModules.toArray(new String[gradleModules.size()]), new String[]{"webapi","model"});

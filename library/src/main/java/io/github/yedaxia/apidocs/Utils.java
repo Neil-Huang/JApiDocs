@@ -1,5 +1,7 @@
 package io.github.yedaxia.apidocs;
 
+import com.google.gson.FieldNamingPolicy;
+import com.google.gson.FieldNamingStrategy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.xml.sax.Attributes;
@@ -10,6 +12,7 @@ import org.xml.sax.helpers.DefaultHandler;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 import java.io.*;
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
@@ -23,8 +26,17 @@ public class Utils {
      * @return
      */
 	public static String toPrettyJson(Object map){
-		Gson gson = new GsonBuilder().setPrettyPrinting().create();
-		return gson.toJson(map);
+		//Gson gson = new GsonBuilder().setPrettyPrinting().create();
+
+		// 蛇形格式
+		GsonBuilder gsonBuilder = new GsonBuilder();
+		//gsonBuilder.setFieldNamingStrategy(new FieldStrategy.AllUpperCaseStrategy())
+		gsonBuilder.setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES)
+		           .setPrettyPrinting();
+		Gson gson = gsonBuilder.create();
+
+		String json = gson.toJson(map);
+		return json;
 	}
 
     /**
@@ -36,6 +48,14 @@ public class Utils {
         Gson gson = new Gson();
         return gson.toJson(map);
     }
+
+	public static String toSnakeJson(Object map){
+		GsonBuilder gsonBuilder = new GsonBuilder();
+		gsonBuilder.setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES);
+
+		Gson gson = gsonBuilder.create();
+		return gson.toJson(map);
+	}
 
     /**
      * json string to object
@@ -391,4 +411,19 @@ public class Utils {
 
 	    return moduleNames;
     }
+
+
+    public static String string2SnakeCase(String name) {
+		String separator = "_";
+		StringBuilder translation = new StringBuilder();
+		for (int i = 0; i < name.length(); i++) {
+			char character = name.charAt(i);
+			if (Character.isUpperCase(character) && translation.length() != 0) {
+				translation.append(separator);
+			}
+
+			translation.append(Character.toLowerCase(character));
+		}
+		return translation.toString();
+	}
 }

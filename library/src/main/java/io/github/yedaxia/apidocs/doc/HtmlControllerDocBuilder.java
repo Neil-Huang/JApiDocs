@@ -1,5 +1,7 @@
 package io.github.yedaxia.apidocs.doc;
 
+import io.github.yedaxia.apidocs.DocContext;
+import io.github.yedaxia.apidocs.IResponseWrapper;
 import io.github.yedaxia.apidocs.parser.ParamNode;
 import io.github.yedaxia.apidocs.Resources;
 import io.github.yedaxia.apidocs.Utils;
@@ -12,6 +14,7 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 
 /**
  *
@@ -73,6 +76,16 @@ public class HtmlControllerDocBuilder implements IControllerDocBuilder{
 
             if (requestNode.getResponseNode() != null) {
                 actionDoc = actionDoc.replace("${RESPONSE}", requestNode.getResponseNode().toJsonApi());
+                //actionDoc = actionDoc.replace("${RESPONSE}", requestNode.getResponseNode().toJsonApi4Itacasa());
+
+                // 替换成
+/*
+                IResponseWrapper responseWrapper = DocContext.getResponseWrapper();
+                Map<String, Object> resultMap = responseWrapper.wrapResponse(requestNode.getResponseNode());
+                String responseJson = Utils.toPrettyJson(resultMap);
+                actionDoc = actionDoc.replace("${RESPONSE}", responseJson);
+*/
+
                 if(requestNode.getResponseNode().getChildNodes().isEmpty()){
                     actionDoc = actionDoc.replace("${IOS_CODE}", "#");
                     actionDoc = actionDoc.replace("${ANDROID_CODE}", "#");
